@@ -20,7 +20,7 @@ function onClickPress(){
 }
 
 function onKeyPress(event){
-	if(inputLength()>0 && event.keyCode===13){
+	if(inputLength()>0 && event.keyCode==13){
 		AddElementtoList();
 	}
 }
